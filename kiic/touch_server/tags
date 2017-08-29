@@ -1,0 +1,95 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DEBUG_PRINT_EVENT	zs_touch.c	18;"	d	file:
+FILE_1M	zs_touch.c	42;"	d	file:
+FILE_PATH	zs_touch.c	44;"	d	file:
+FILE_PATH_1	zs_touch.c	45;"	d	file:
+FILE_SIZE	zs_touch.c	43;"	d	file:
+LABEL	zs_touch.c	21;"	d	file:
+LABEL	zs_touch.c	36;"	d	file:
+LABEL_END	zs_touch.c	22;"	d	file:
+LABEL_END	zs_touch.c	37;"	d	file:
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE:= touchser$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_SHARED_LIBRARIES	Android.mk	/^LOCAL_SHARED_LIBRARIES := libcrypto libcutils libselinux$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES:= zs_touch.c$/;"	m
+PAD_DEVICES_NAME	zs_touch.c	46;"	d	file:
+POINT_MAX	zs_touch.c	41;"	d	file:
+STR_LEN	zs_touch.c	40;"	d	file:
+abs_labels	input.h-labels.h	/^static struct label abs_labels[] = {$/;"	v	typeref:struct:label
+bool	zs_touch.c	/^}bool;$/;"	t	typeref:enum:__anon1	file:
+day	zs_touch.c	/^	unsigned int day:5;			\/*bit 11-15 0x1f-31 31*\/$/;"	m	struct:zs_time	file:
+device_id	zs_touch.c	/^	unsigned int device_id:1;	\/*bit 23  0-VA 1-pad*\/$/;"	m	struct:pointer	file:
+device_id	zs_touch.c	/^bool device_id = 0;$/;"	v
+device_names	zs_touch.c	/^static char **device_names;$/;"	v	file:
+ev_labels	input.h-labels.h	/^static struct label ev_labels[] = {$/;"	v	typeref:struct:label
+false	zs_touch.c	/^	false=0$/;"	e	enum:__anon1	file:
+ff_labels	input.h-labels.h	/^static struct label ff_labels[] = {$/;"	v	typeref:struct:label
+ff_status_labels	input.h-labels.h	/^static struct label ff_status_labels[] = {$/;"	v	typeref:struct:label
+file_write	zs_touch.c	/^int file_write(const char* file, const char* buf)$/;"	f
+finger_down	zs_touch.c	/^	finger_down=1 $/;"	e	enum:__anon2	file:
+finger_status	zs_touch.c	/^}finger_status;$/;"	t	typeref:enum:__anon2	file:
+finger_up	zs_touch.c	/^	finger_up=0,$/;"	e	enum:__anon2	file:
+get_day	zs_touch.c	119;"	d	file:
+get_hour	zs_touch.c	121;"	d	file:
+get_id	zs_touch.c	77;"	d	file:
+get_label	zs_touch.c	/^static const char *get_label(const struct label *labels, int value)$/;"	f	file:
+get_min	zs_touch.c	123;"	d	file:
+get_month	zs_touch.c	117;"	d	file:
+get_slot	zs_touch.c	73;"	d	file:
+get_time	zs_touch.c	75;"	d	file:
+get_type	zs_touch.c	81;"	d	file:
+get_x	zs_touch.c	79;"	d	file:
+get_y	zs_touch.c	83;"	d	file:
+get_year	zs_touch.c	115;"	d	file:
+hour	zs_touch.c	/^	unsigned int hour:5; 		\/*bit 6-10 0x1f-31 24*\/$/;"	m	struct:zs_time	file:
+input_prop_labels	input.h-labels.h	/^static struct label input_prop_labels[] = {$/;"	v	typeref:struct:label
+key_labels	input.h-labels.h	/^static struct label key_labels[] = {$/;"	v	typeref:struct:label
+key_value_labels	zs_touch.c	/^static struct label key_value_labels[] = {$/;"	v	typeref:struct:label	file:
+label	zs_touch.c	/^struct label {$/;"	s	file:
+led_labels	input.h-labels.h	/^static struct label led_labels[] = {$/;"	v	typeref:struct:label
+main	zs_touch.c	/^int main(void)$/;"	f
+min	zs_touch.c	/^	unsigned int min:6; 		\/*bit 0-5 0x3f-63 60*\/$/;"	m	struct:zs_time	file:
+month	zs_touch.c	/^	unsigned int month:4;		\/*bit 16-19 0xf-15 12*\/$/;"	m	struct:zs_time	file:
+msc_labels	input.h-labels.h	/^static struct label msc_labels[] = {$/;"	v	typeref:struct:label
+mt_tool_labels	input.h-labels.h	/^static struct label mt_tool_labels[] = {$/;"	v	typeref:struct:label
+name	zs_touch.c	/^    const char *name;$/;"	m	struct:label	file:
+nfds	zs_touch.c	/^static int nfds;$/;"	v	file:
+open_device	zs_touch.c	/^static int open_device(const char *device)$/;"	f	file:
+pointer	zs_touch.c	/^struct pointer {$/;"	s	file:
+print_event	zs_touch.c	/^static bool print_event(int type, int code, int value)$/;"	f	file:
+read_notify	zs_touch.c	/^static int read_notify(const char *dirname, int nfd)$/;"	f	file:
+rel_labels	input.h-labels.h	/^static struct label rel_labels[] = {$/;"	v	typeref:struct:label
+rep_labels	input.h-labels.h	/^static struct label rep_labels[] = {$/;"	v	typeref:struct:label
+scan_dir	zs_touch.c	/^static int scan_dir(const char *dirname)$/;"	f	file:
+set_day	zs_touch.c	103;"	d	file:
+set_hour	zs_touch.c	107;"	d	file:
+set_id	zs_touch.c	57;"	d	file:
+set_min	zs_touch.c	111;"	d	file:
+set_month	zs_touch.c	99;"	d	file:
+set_slot	zs_touch.c	49;"	d	file:
+set_time	zs_touch.c	53;"	d	file:
+set_type	zs_touch.c	65;"	d	file:
+set_x	zs_touch.c	61;"	d	file:
+set_y	zs_touch.c	69;"	d	file:
+set_year	zs_touch.c	95;"	d	file:
+slot	zs_touch.c	/^	unsigned int slot:4;		\/*bit 40-43 0xf-15*\/$/;"	m	struct:pointer	file:
+snd_labels	input.h-labels.h	/^static struct label snd_labels[] = {$/;"	v	typeref:struct:label
+sum_str	zs_touch.c	/^char sum_str[200];$/;"	v
+sw_labels	input.h-labels.h	/^static struct label sw_labels[] = {$/;"	v	typeref:struct:label
+syn_labels	input.h-labels.h	/^static struct label syn_labels[] = {$/;"	v	typeref:struct:label
+test_bit	zs_touch.c	47;"	d	file:
+time	zs_touch.c	/^	unsigned int time:16;		\/*bit 24-39 0xffff-65535(65s)*\/$/;"	m	struct:pointer	file:
+touch_props	zs_touch.c	/^static int touch_props(int fd)$/;"	f	file:
+true	zs_touch.c	/^	true=1, $/;"	e	enum:__anon1	file:
+type	zs_touch.c	/^	unsigned int type:1;		\/*bit 11 1-down 0-up*\/$/;"	m	struct:pointer	file:
+ufds	zs_touch.c	/^static struct pollfd *ufds;$/;"	v	typeref:struct:pollfd	file:
+value	zs_touch.c	/^    int value;$/;"	m	struct:label	file:
+x	zs_touch.c	/^	unsigned int x:11;			\/*bit 12-22 0x7ff-2047*\/$/;"	m	struct:pointer	file:
+y	zs_touch.c	/^	unsigned int y:11;			\/*bit 0-10 0x7ff-2047*\/$/;"	m	struct:pointer	file:
+year	zs_touch.c	/^	unsigned int year:11;		\/*bit 20-31 0x7ff-2047*\/$/;"	m	struct:zs_time	file:
+zs_time	zs_touch.c	/^struct zs_time {$/;"	s	file:
